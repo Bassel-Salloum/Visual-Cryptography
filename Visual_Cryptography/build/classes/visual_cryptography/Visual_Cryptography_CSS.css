@@ -1,0 +1,76 @@
+.root {
+    -fx-background-color : #7e7e86 ;
+}
+
+#image_view_frame {
+    -fx-border-color: #009999 ;
+    -fx-border-width: 1 ;
+    -fx-background-color: #c8c8c8 ;
+}
+
+#Button {
+    -fx-background-color: 
+        #090a0c ,
+        linear-gradient(#009999 0%, #0099cc 20%, #191d22 100%) ,
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 40% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0)) ;
+    -fx-background-radius: 5,4,3,5 ;
+    -fx-background-insets: 0,1,2,0 ;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 ) ;
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0) ;
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20 ;
+    -fx-font-family : "Contra" ;
+}
+
+#Button:hover {
+    -fx-background-color: 
+        #090a0c ,
+        linear-gradient(#00ff00 100%, #00ff00 100%, #00ff00 100%) ,
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0)) ;
+}
+
+#Button:pressed {
+    -fx-background-color: 
+        #090a0c ,
+        linear-gradient(#cc0033 100%, #cc0033 100%, #cc0033 100%) ,
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0)) ;
+}
+    
+#Title {
+    -fx-font-weight: bold ;
+    -fx-font-size: 70px ;
+    -fx-font-family: "Contra" ;
+    -fx-fill: #49497a ;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 5 ) ;
+}
+
+#TextField {
+    -fx-background-color: #c8c8c8 ;
+    -fx-border-radius: 2 ;
+    -fx-border-color: #009999 ;
+    -fx-padding : 7, 7, 7, 7 ;
+    -fx-prompt-text-fill : #666666 ;
+}
+    
+#TextField:focused {
+    -fx-prompt-text-fill : #c8c8c8 ;
+}
+
+#ResultName {
+    -fx-font-weight: bold ;
+    -fx-font-size: 20px ;
+    -fx-font-family: "Contra" ;
+    -fx-fill: #49497a ;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 5 ) ;
+}
+
+#MySharesList {
+    -fx-background-color: #c8c8c8 ;
+    -fx-border-color: #009999 ;
+}
+
